@@ -1,0 +1,8 @@
+name: Primeiro Projeto
+on: workflow_dispatch
+jobs: 
+ first-job:
+  runs-on: ubunto-latest
+  steps:
+   - name: Print hello wold
+   run: echo "hello wold"
